@@ -9,12 +9,13 @@
 
    .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
     background-color: aqua;
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-items: center;
    }
 
    .debug {
