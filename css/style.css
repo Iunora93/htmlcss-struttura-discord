@@ -68,6 +68,10 @@
     padding-bottom: 20px;
   }
 
+  .main-box:nth-child(even) {
+    background-color: lightgray;
+  }
+
   .box-2 {
     background-color: #add8e6;
     justify-content: center;
@@ -91,4 +95,36 @@
     height: 400px;
     width: 600px;
     background-color: green;
+  }
+
+  .sfondo-footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #23272a;
+    border-bottom: #eeeeee solid 1px;   
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 20px; 
+  }
+
+  .column-1 {
+    background-color: #f08080;
+    height: 600px;
+    width: 300px;
+  }
+
+  .column {
+    background-color: #20b2aa;
+    height: 600px;
+    width: 125px;
+    border: #23272a dashed 1px;
+  }
+
+  .column-end {
+    background-color: #7fffd4;
+    height: 80px;
+    width: 800px;
   }
