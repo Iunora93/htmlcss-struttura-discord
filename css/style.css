@@ -11,11 +11,12 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    background-color: aqua;
+    background-color: #add8e6;
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
+    flex-wrap: wrap;
    }
 
    .debug {
@@ -49,6 +50,12 @@
 
   .col-3 {
     width: 300px;
+  }
+
+  .container-2{
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
   }
 
   
