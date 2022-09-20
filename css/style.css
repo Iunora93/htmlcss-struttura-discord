@@ -15,7 +15,7 @@
     height: 70px;   
     align-items: center;
     flex-wrap: wrap;
-    text-align: center;
+    
    }
 
    .debug {
@@ -32,14 +32,17 @@
 
   .col-1 {
     width: 200px;
+    text-align: left;
   }
 
   .col-2 {
     width: 400px;
+    text-align: center;
   }
 
   .col-3 {
     width: 200px;
+    text-align: right;
   }
 
   .sfondo-header {
@@ -61,7 +64,7 @@
   .main-box {
     background-color: white;
     display: flex;
-    max-width: 1200px;
+    
     justify-content: center;
     margin: auto;
     padding-top: 20px;
@@ -127,4 +130,7 @@
     background-color: #7fffd4;
     height: 80px;
     width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
   }
